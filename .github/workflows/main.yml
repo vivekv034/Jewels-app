@@ -13,7 +13,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
       - name: Build Debug APK
-        run: gradle assembleDebug -Dorg.gradle.jvmargs="-Xmx2g" --no-daemon -ksp.useK2=false
+        run: gradle assembleDebug
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:

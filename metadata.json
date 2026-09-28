@@ -1,0 +1,6 @@
+{
+  "name": "Jewellery Business Manager",
+  "description": "Mobile-first jewellery business management application for Gold and Silver transactions, customer payments, scrap metal, tunch/purity calculations, invoices, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
